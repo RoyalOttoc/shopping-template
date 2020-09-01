@@ -1,0 +1,65 @@
+:root {
+  /* color */
+  --color-black: #3f454d;
+  --color-white: #ffffff;
+  --color-blue: #3b88c3;
+  --color-yellow: #fbbe28;
+  --color-pink: #fd7f84;
+  --color-light-grey: #dfdfdf;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-black);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttons {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0px 30px 0px;
+}
+.buttons button {
+  border: none;
+  font-size: 20px;
+}
+.buttons img,
+.lists img {
+  width: 50px;
+  height: 50px;
+}
+.buttons .pic {
+  background-color: var(--color-black);
+}
+.buttons .blue_btn {
+  background-color: var(--color-blue);
+}
+.buttons .yellow_btn {
+  background-color: var(--color-yellow);
+}
+.buttons .pink_btn {
+  background-color: var(--color-pink);
+}
+.lists {
+  background-color: white;
+  width: 500px;
+}
+.lists div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: 10px solid var(--color-black);
+}
+.lists span {
+  margin-left: 20px;
+}
+button:focus {
+  outline: none;
+}
