@@ -49,7 +49,9 @@ body {
 }
 .lists {
   background-color: white;
-  width: 500px;
+  width: 60%;
+  height: 60%;
+  overflow-y: scroll;
 }
 .lists div {
   display: flex;
@@ -62,4 +64,11 @@ body {
 }
 button:focus {
   outline: none;
+}
+
+.lists .inactive {
+  display: none;
+}
+.lists .active {
+  display: flex;
 }
